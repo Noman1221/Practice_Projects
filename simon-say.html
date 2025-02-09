@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Say</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .btn{
+            width: 200px;
+            height: 200px;
+            border-radius: 20%;
+            border:2px solid black;
+            margin: 2.5rem;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+           
+        }
+        .green{
+            background-color: #63aac0;
+        }
+        .yellow{
+            background-color: #f99b45;
+        }
+        .red{
+            background-color: #d95980;
+        }
+        .purple{
+            background-color: #819ff9;
+        }
+        .flash{
+            background-color: white;
+        }
+        .userFlash{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simon say</h1>
+    <h2>press any to start the game</h2>
+    <div class="container">
+        <div class="line-One">
+            <div class="btn red" type="button" id="red"></div>
+            <div class="btn green" type="button" id="green"></div>
+        </div>
+        <div class="line-two">
+            <div class="btn yellow" type="button" id="yellow"></div>
+            <div class="btn purple" type="button" id="purple" ></div>
+        </div>
+       
+    </div>
+    <script src="simon-say.js"></script>
+</body>
+</html>
